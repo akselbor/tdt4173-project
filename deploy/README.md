@@ -16,7 +16,7 @@ Workload will be distributed uniformly among the provided AWS instances.
 
 ## Summary of available files
 ### `deploy.sh`
-As mentioned, this is the script used to deploy to AWS. It takes a list of AWS cloud instances and deploys the application to each. It does the following:
+This script is the one used to deploy to AWS. It takes a list of AWS cloud instances and deploys the application to each one. It does the following:
 - Set up an all-included image of the required files, stored in `app/`
 - Run `transfer.sh` for each instance
 
