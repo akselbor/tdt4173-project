@@ -19,15 +19,15 @@ This file concerns results and analyses utilized in the paper. It does the follo
 - Generates the tables and figures presented in the paper.
   
 ### `deploy/`
-This folder contains scripts used to deploy the `Project.ipynb` to an arbitrary number of [Amazon Web Services](https://aws.amazon.com) instances. Check the `deploy/README.md` for further information.
+This folder contains scripts used to deploy the `Project.ipynb` to an arbitrary number of [Amazon Web Services](https://aws.amazon.com) instances. Check `deploy/README.md` for further information.
 
 ### `data/`
 This directory contains the previously mentioned `results.csv`, as well as the following data sets:
 - `abalone`
 - `adult`
-- `letter-recognition` (currently unused)
+- `letter-recognition` (*currently unused*)
 - `optdigits`
 - `bank`
 - `online_shoppers_intention`
 
-Note that `california_housing` will be downloaded when running the main project file, while `online_shoppers_intention` and `bank` will be downloaded if not already  available in `data/`.
+The main project file most of the data sets from these files. The exception is `california_housing`, which will be downloaded when running the project. In addition, `online_shoppers_intention` and `bank` will be downloaded if needed, i.e. if not available within the data folder.
