@@ -1,5 +1,5 @@
 # TDT4173 Group project
-This repository contains the source code for Group 1's project in TDT4173 Machine Learning. The most vital files and folders are presented in this README.
+This repository contains the source code for Group 1's project in TDT4173 Machine Learning. The most vital files and folders are presented in this README. In addition, most code files are written with liberal use of comments.
 
 ## Setup
 This project utilizes Python written in [Jupyter notebook](https://jupyter.org). The easiest way of running this code is by installing [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) and use that to run the Jupyter notebooks present in this repository.
